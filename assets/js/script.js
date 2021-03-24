@@ -177,4 +177,8 @@ $("#remove-tasks").on("click", function() {
 // load tasks for the first time
 loadTasks();
 
+$(".card .list-group").sortable({
+  connectWith: $(".card .list-group")
+});
+
 
